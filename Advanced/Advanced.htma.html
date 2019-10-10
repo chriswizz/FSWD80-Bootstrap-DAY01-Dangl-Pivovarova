@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- bootstrap css local fallback - copy bootstrap file in correct folder -->
+    <!-- <link rel="stylesheet" h 	ref="css/bootstrap.css"> -->
+    <!-- adapt external css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    }
+    #row1 {background-color: red; padding: 10px; margin:  20px;
+
+    }
+
+    .col-2, .col-3, .col-6 {padding: 20px;
+
+    }
+
+    #row2 {background-color: yellow; padding: 10px; margin:  20px;
+
+    }
+
+    #row3 {background-color: grey; padding: 10px; margin:  20px;
+
+    }
+    .int {
+    	background-color: white;
+    }
+	
+
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" id="row1">
+            <div class="col-2 col-lg-1">
+            </div>
+            <div class="col-2 offset-8 col-lg-1 offset-lg-10">
+            </div>
+        </div>
+        <div class="row justify-content-between" id="row2">
+            <div class="col-3">
+            </div>
+            <div class="col-3">
+            </div>
+            <div class="col-3">
+            </div>
+        </div>
+        <div class="row text-white" id="row3">
+            <div class="col-2">
+            	<div class="int m-1 p-0 w-100 h-100">.
+            		
+            	</div>
+            </div>
+            <div class="col-6">
+            	<div class="int m-1 p-0 w-100 h-100">.
+            		
+            	</div>
+            </div>
+            <div class="col-3 offset-1">
+            	<div class="int m-1 p-0 w-100 h-100">.
+            		
+            	</div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- bootstrap js local fallback - copy bootstrap file in correct folder -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <!-- adapt external js src-->
+    <script src="js/data.json"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
